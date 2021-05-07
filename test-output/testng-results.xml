@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-27T19:18:15 IST" name="Default suite" finished-at="2021-01-27T19:21:00 IST" duration-ms="165091">
+    <groups>
+    </groups>
+    <test started-at="2021-01-27T19:18:15 IST" name="Default test" finished-at="2021-01-27T19:21:00 IST" duration-ms="165091">
+      <class name="search.searchTest">
+        <test-method signature="chrome()[pri:0, instance:search.searchTest@43301423]" started-at="2021-01-27T19:18:15 IST" name="chrome" finished-at="2021-01-27T19:19:17 IST" duration-ms="62075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome -->
+        <test-method signature="fireFox()[pri:0, instance:search.searchTest@43301423]" started-at="2021-01-27T19:19:17 IST" name="fireFox" finished-at="2021-01-27T19:21:00 IST" depends-on-methods="search.searchTest.chrome" duration-ms="102896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fireFox -->
+      </class> <!-- search.searchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
